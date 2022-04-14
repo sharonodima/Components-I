@@ -137,9 +137,9 @@ function Maker(articleObject) {
 
   heading.textContent = articleObject.title;
   date.textContent = articleObject.date;
-  paragraph1.textContent = articleObject.firstParagragh;
-  paragraph1.textContent = articleObject.secondParagragh;
-  paragraph1.textContent = articleObject.thirdParagragh;
+  paragraph1.textContent = articleObject.firstParagraph;
+  paragraph2.textContent = articleObject.secondParagraph;
+  paragraph3.textContent = articleObject.thirdParagraph;
   expandButton.textContent = "+";
 
   expandButton.addEventListener("click", () => {
